@@ -1,28 +1,28 @@
 class Webreaper < Formula
   desc "Declarative .NET web scraper / crawler: AI-native CLI"
   homepage "https://github.com/pavlovtech/WebReaper"
-  version "11.1.1"
+  version "11.1.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/pavlovtech/WebReaper/releases/download/v11.1.1/webreaper-v11.1.1-osx-arm64.zip"
-      sha256 "af2a86715e48fc7e836c436166701928c55e3bb876793b3264484b9da2de2a07"
+      url "https://github.com/pavlovtech/WebReaper/releases/download/v11.1.2/webreaper-v11.1.2-osx-arm64.zip"
+      sha256 "2116101c0a71fc4f6cc8344dcdb02e4f95669adab3a6db6c270bec7bc40c0b2a"
     end
     on_intel do
-      url "https://github.com/pavlovtech/WebReaper/releases/download/v11.1.1/webreaper-v11.1.1-osx-x64.zip"
-      sha256 "46d345f427dd8240d3dc1410fcb9e156b1bcc77247ff477c5cfbbd875ccaba20"
+      url "https://github.com/pavlovtech/WebReaper/releases/download/v11.1.2/webreaper-v11.1.2-osx-x64.zip"
+      sha256 "4eae8fa27e9ee5147db23e319b63a94338e4431f917975bc34163447c806f65b"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/pavlovtech/WebReaper/releases/download/v11.1.1/webreaper-v11.1.1-linux-x64.tar.gz"
-      sha256 "8238a9c54bca890f424400f518ad0fc36af06257c724b04618b5b015ce2e920a"
+      url "https://github.com/pavlovtech/WebReaper/releases/download/v11.1.2/webreaper-v11.1.2-linux-x64.tar.gz"
+      sha256 "59e0d75ccfc5ddb71dcb0e126839dc747b01860cce7977659f462b4364abb76a"
     end
     on_arm do
-      url "https://github.com/pavlovtech/WebReaper/releases/download/v11.1.1/webreaper-v11.1.1-linux-arm64.tar.gz"
-      sha256 "ac34b6ed6608c19e0f3a0eb3a170b059f47c1607222a8a66472b489c58b66b2e"
+      url "https://github.com/pavlovtech/WebReaper/releases/download/v11.1.2/webreaper-v11.1.2-linux-arm64.tar.gz"
+      sha256 "f4a17de500155b6f2f968b6916e3158d0574485fc3c2bdc9e9694e1a7d212457"
     end
   end
 
