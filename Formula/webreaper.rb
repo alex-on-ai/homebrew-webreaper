@@ -7,22 +7,22 @@ class Webreaper < Formula
   on_macos do
     on_arm do
       url "https://github.com/pavlovtech/WebReaper/releases/download/v11.3.0/webreaper-v11.3.0-osx-arm64.zip"
-      sha256 "6e3ef476122a362d2511fe4b4e0036f86849e09a4eed44eface6ec7838080b80"
+      sha256 "b6b1a3fed7079265ae10f2373aec67fe88e10cfbff3dc93af4312beb5c94af74"
     end
     on_intel do
       url "https://github.com/pavlovtech/WebReaper/releases/download/v11.3.0/webreaper-v11.3.0-osx-x64.zip"
-      sha256 "26019caeb08c892d4c3ce5f684787dc8e97d640c5ab262fd9bf82e76b9f27d77"
+      sha256 "0c275b728f3e0a4f19fac404c8f817cbc1ea47d5b66f02a7b9c18a232193dfde"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/pavlovtech/WebReaper/releases/download/v11.3.0/webreaper-v11.3.0-linux-x64.tar.gz"
-      sha256 "3cfbb0e3dc19fc07892d52c3e478f17b25cfae863a305778d9b378b27795e934"
+      sha256 "983e295033762d7cb0d837664dbdc06ba89686b48f723ff98034429a97d55c42"
     end
     on_arm do
       url "https://github.com/pavlovtech/WebReaper/releases/download/v11.3.0/webreaper-v11.3.0-linux-arm64.tar.gz"
-      sha256 "c79cbd8fb727630f1f15a5982823e67402f0cb7b146e452afc65caad90d81a76"
+      sha256 "b048cdc37c2eaf65614b782a48869e08c37a2c7f00a820cfd5b38d0038f483b2"
     end
   end
 
