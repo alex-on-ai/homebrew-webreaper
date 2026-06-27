@@ -17,4 +17,4 @@ brew install webreaper
 
 Upgrade with `brew upgrade webreaper`. The formula here is regenerated automatically on every WebReaper release.
 
-Built by [HighCraft](https://highcraft.io).
+Built by [HighCraft.io](https://highcraft.io).
